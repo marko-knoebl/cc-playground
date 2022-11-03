@@ -1,0 +1,24 @@
+:root {
+  --primary-color: #1565c0;
+  --secondary-color: #f50057;
+}
+
+h1 {
+  font-family: sans-serif;
+  font-size: 30px;
+  margin-bottom: 20px;
+  color: var(--primary-color);
+}
+
+button {
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+}
+
+.paragraphs-container {
+  background-color: green;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
